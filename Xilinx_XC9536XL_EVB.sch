@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Xilinx_XC9536XL_EVB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1400,7 +1399,7 @@ U 1 1 4D5EADA5
 P 2200 3350
 F 0 "X1" H 2375 3500 60  0000 C CNN
 F 1 "XTAL" H 2300 3200 60  0001 C CNN
-F 2 "Crystals:Crystal_HC48-U_Vertical" H 2200 3350 60  0001 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 2200 3350 60  0001 C CNN
 F 3 "" H 2200 3350 60  0001 C CNN
 	1    2200 3350
 	1    0    0    -1  
