@@ -1,0 +1,6 @@
+[submodule "Connect_custom.pretty"]
+	path = Connect_custom.pretty
+	url = https://github.com/chrisnoisel/Connect.pretty
+[submodule "Resistors_ThroughHole_custom.pretty"]
+	path = Resistors_ThroughHole_custom.pretty
+	url = https://github.com/chrisnoisel/Resistors_ThroughHole.pretty

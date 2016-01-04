@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name Connect_custom)(type KiCad)(uri /home/chris/Documents/kicad/github_custom/Connect.pretty)(options "")(descr ""))
-  (lib (name Resistors_ThroughHole_custom)(type KiCad)(uri /home/chris/Documents/kicad/github_custom/Resistors_ThroughHole.pretty)(options "")(descr ""))
+  (lib (name Connect_custom)(type KiCad)(uri "$(KIPRJMOD)/Connect_custom.pretty")(options "")(descr ""))
+  (lib (name Resistors_ThroughHole_custom)(type KiCad)(uri "$(KIPRJMOD)/Resistors_ThroughHole_custom.pretty")(options "")(descr ""))
 )
