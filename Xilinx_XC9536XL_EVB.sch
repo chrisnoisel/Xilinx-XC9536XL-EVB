@@ -39,19 +39,7 @@ Wire Notes Line
 Connection ~ 9850 1300
 Connection ~ 9850 1100
 Wire Wire Line
-	6150 7250 6150 7150
-Wire Wire Line
-	6150 7150 6150 7050
-Wire Wire Line
-	6150 7050 6150 6950
-Wire Wire Line
-	6150 6950 6150 6850
-Wire Wire Line
-	6150 6850 6150 6750
-Wire Wire Line
-	6150 6750 6150 6650
-Wire Wire Line
-	6150 6650 6150 6550
+	6150 6550 6150 7250
 Wire Wire Line
 	10150 3050 10150 3300
 Wire Wire Line
@@ -190,9 +178,7 @@ Wire Wire Line
 	1750 2350 1000 2350
 Connection ~ 3850 3550
 Wire Wire Line
-	3850 3450 3850 3550
-Wire Wire Line
-	3850 3550 3850 3700
+	3850 3450 3850 3700
 Wire Wire Line
 	1750 2550 1400 2550
 Wire Wire Line
@@ -230,9 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2600 4400 2100
 Wire Wire Line
-	4400 2100 3600 2100
-Wire Wire Line
-	3600 2100 3150 2100
+	4400 2100 3150 2100
 Wire Wire Line
 	5050 2100 5400 2100
 Connection ~ 2450 1000
@@ -243,9 +227,7 @@ Wire Wire Line
 	2375 4200 2375 4100
 Connection ~ 2550 3350
 Wire Wire Line
-	2550 3600 2550 3350
-Wire Wire Line
-	2550 3350 2550 3100
+	2550 3100 2550 3600
 Wire Wire Line
 	2550 3100 2450 3100
 Wire Wire Line
@@ -268,19 +250,7 @@ Connection ~ 8600 5650
 Connection ~ 8600 5550
 Connection ~ 8600 5450
 Wire Wire Line
-	8600 6250 8600 6050
-Wire Wire Line
-	8600 6050 8600 5950
-Wire Wire Line
-	8600 5950 8600 5850
-Wire Wire Line
-	8600 5850 8600 5750
-Wire Wire Line
-	8600 5750 8600 5650
-Wire Wire Line
-	8600 5650 8600 5550
-Wire Wire Line
-	8600 5550 8600 5450
+	8600 5450 8600 6250
 Wire Wire Line
 	9400 5850 9750 5850
 Wire Wire Line
@@ -301,30 +271,18 @@ Wire Wire Line
 	9700 4900 9400 4900
 Connection ~ 9400 4900
 Wire Wire Line
-	6450 4900 6550 4900
-Wire Wire Line
-	6550 4900 6650 4900
+	6450 4900 6650 4900
 Connection ~ 6550 4900
 Wire Wire Line
 	6600 1700 6600 1050
 Connection ~ 7300 1050
 Wire Wire Line
-	6600 1050 6950 1050
-Wire Wire Line
-	6950 1050 7300 1050
-Wire Wire Line
-	7300 1050 7650 1050
-Wire Wire Line
-	7650 1050 8050 1050
-Wire Wire Line
-	8050 1050 8350 1050
+	6600 1050 8350 1050
 Wire Wire Line
 	8350 1050 8350 900 
 Connection ~ 8050 1050
 Wire Wire Line
-	6500 1700 6600 1700
-Wire Wire Line
-	6600 1700 6700 1700
+	6500 1700 6700 1700
 Connection ~ 6600 1700
 Wire Wire Line
 	9600 1500 9600 1300
@@ -333,16 +291,12 @@ Wire Wire Line
 Wire Wire Line
 	10250 5850 10600 5850
 Wire Wire Line
-	2200 3100 2200 3350
-Wire Wire Line
-	2200 3350 2200 3600
+	2200 3100 2200 3600
 Connection ~ 2200 3350
 Wire Wire Line
 	2200 4000 2200 4100
 Wire Wire Line
-	2200 4100 2375 4100
-Wire Wire Line
-	2375 4100 2550 4100
+	2200 4100 2550 4100
 Wire Wire Line
 	2550 4100 2550 4000
 Wire Wire Line
@@ -350,9 +304,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 3100 2800 3350
 Wire Wire Line
-	1300 1000 1600 1000
-Wire Wire Line
-	1600 1000 2450 1000
+	1300 1000 2450 1000
 Wire Wire Line
 	1300 1000 1300 1050
 Connection ~ 1600 1000
@@ -360,25 +312,19 @@ Wire Wire Line
 	1300 1450 1300 1500
 Connection ~ 1600 1800
 Wire Wire Line
-	3150 1800 3750 1800
-Wire Wire Line
-	3750 1800 4700 1800
+	3150 1800 4700 1800
 Wire Wire Line
 	4700 1800 4700 2300
 Wire Wire Line
 	4700 2300 5400 2300
 Wire Wire Line
-	3150 1900 3700 1900
-Wire Wire Line
-	3700 1900 4600 1900
+	3150 1900 4600 1900
 Wire Wire Line
 	4600 1900 4600 2400
 Wire Wire Line
 	4600 2400 5400 2400
 Wire Wire Line
-	3150 2000 3650 2000
-Wire Wire Line
-	3650 2000 4500 2000
+	3150 2000 4500 2000
 Wire Wire Line
 	4500 2000 4500 2500
 Wire Wire Line
@@ -434,17 +380,13 @@ Wire Wire Line
 Wire Wire Line
 	1100 2050 1750 2050
 Wire Wire Line
-	1750 1800 1600 1800
-Wire Wire Line
-	1600 1800 1200 1800
+	1200 1800 1750 1800
 Wire Wire Line
 	1200 1800 1200 1650
 Wire Wire Line
 	1200 1650 1000 1650
 Wire Wire Line
-	9400 5450 9400 4900
-Wire Wire Line
-	9400 4900 9400 4600
+	9400 4600 9400 5450
 Wire Wire Line
 	5400 6650 5600 6650
 Wire Wire Line
@@ -458,37 +400,21 @@ Wire Wire Line
 Connection ~ 6150 6650
 Connection ~ 6150 6750
 Wire Wire Line
-	1800 6550 2050 6550
+	1800 6550 2950 6550
 Wire Wire Line
-	2050 6550 2950 6550
+	1800 6650 2950 6650
 Wire Wire Line
-	1800 6650 2150 6650
+	1800 6750 2950 6750
 Wire Wire Line
-	2150 6650 2950 6650
+	1800 6850 2950 6850
 Wire Wire Line
-	1800 6750 2250 6750
+	1800 6950 2950 6950
 Wire Wire Line
-	2250 6750 2950 6750
+	1800 7050 2950 7050
 Wire Wire Line
-	1800 6850 2350 6850
+	1800 7150 2950 7150
 Wire Wire Line
-	2350 6850 2950 6850
-Wire Wire Line
-	1800 6950 2450 6950
-Wire Wire Line
-	2450 6950 2950 6950
-Wire Wire Line
-	2950 7050 2550 7050
-Wire Wire Line
-	2550 7050 1800 7050
-Wire Wire Line
-	2950 7150 2650 7150
-Wire Wire Line
-	2650 7150 1800 7150
-Wire Wire Line
-	2950 7250 2750 7250
-Wire Wire Line
-	2750 7250 1800 7250
+	1800 7250 2950 7250
 Wire Wire Line
 	2150 6400 2150 6650
 Connection ~ 2150 6650
@@ -504,21 +430,7 @@ Connection ~ 2750 7250
 Wire Wire Line
 	3650 6550 3800 6550
 Wire Wire Line
-	3800 6550 3800 6650
-Wire Wire Line
-	3800 6650 3800 6750
-Wire Wire Line
-	3800 6750 3800 6850
-Wire Wire Line
-	3800 6850 3800 6950
-Wire Wire Line
-	3800 6950 3800 7050
-Wire Wire Line
-	3800 7050 3800 7150
-Wire Wire Line
-	3800 7150 3800 7250
-Wire Wire Line
-	3800 7250 3800 7350
+	3800 6550 3800 7350
 Wire Wire Line
 	3800 6750 3650 6750
 Wire Wire Line
@@ -535,9 +447,7 @@ Wire Wire Line
 	4850 1550 4850 1650
 Connection ~ 4850 1550
 Wire Wire Line
-	4750 1550 4850 1550
-Wire Wire Line
-	4850 1550 5000 1550
+	4750 1550 5000 1550
 Wire Wire Line
 	1300 6550 800  6550
 Wire Wire Line
@@ -639,7 +549,7 @@ U 1 1 4D64D9B2
 P 6150 6300
 F 0 "R24" V 6230 6300 50  0000 C CNN
 F 1 "0R" V 6150 6300 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 6150 6300 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 6150 6300 60  0001 C CNN
 F 3 "" H 6150 6300 60  0001 C CNN
 	1    6150 6300
 	1    0    0    -1  
@@ -793,7 +703,7 @@ U 1 1 4D63E142
 P 4500 1550
 F 0 "R14" V 4580 1550 50  0000 C CNN
 F 1 "4k7" V 4500 1550 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 4500 1550 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 4500 1550 60  0001 C CNN
 F 3 "" H 4500 1550 60  0001 C CNN
 	1    4500 1550
 	0    1    1    0   
@@ -815,7 +725,7 @@ U 1 1 4D63E0EF
 P 4850 1900
 F 0 "R15" V 4930 1900 50  0000 C CNN
 F 1 "4k7" V 4850 1900 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 4850 1900 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 4850 1900 60  0001 C CNN
 F 3 "" H 4850 1900 60  0001 C CNN
 	1    4850 1900
 	1    0    0    -1  
@@ -883,7 +793,7 @@ AR Path="/4D63D9F3" Ref="R?"  Part="1"
 AR Path="/4D63DA03" Ref="R23"  Part="1" 
 F 0 "R23" V 1500 6950 50  0000 C CNN
 F 1 "4k7" V 1550 7250 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 7250 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 7250 60  0001 C CNN
 F 3 "" H 1550 7250 60  0001 C CNN
 	1    1550 7250
 	0    1    1    0   
@@ -896,7 +806,7 @@ AR Path="/4D63D9F3" Ref="R?"  Part="1"
 AR Path="/4D63DA02" Ref="R22"  Part="1" 
 F 0 "R22" V 1500 6850 50  0000 C CNN
 F 1 "4k7" V 1550 7150 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 7150 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 7150 60  0001 C CNN
 F 3 "" H 1550 7150 60  0001 C CNN
 	1    1550 7150
 	0    1    1    0   
@@ -909,7 +819,7 @@ AR Path="/4D63D9F3" Ref="R?"  Part="1"
 AR Path="/4D63DA01" Ref="R21"  Part="1" 
 F 0 "R21" V 1500 6750 50  0000 C CNN
 F 1 "4k7" V 1550 7050 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 7050 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 7050 60  0001 C CNN
 F 3 "" H 1550 7050 60  0001 C CNN
 	1    1550 7050
 	0    1    1    0   
@@ -922,7 +832,7 @@ AR Path="/4D63D9F3" Ref="R?"  Part="1"
 AR Path="/4D63D9FD" Ref="R19"  Part="1" 
 F 0 "R19" V 1500 6550 50  0000 C CNN
 F 1 "4k7" V 1550 6850 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 6850 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6850 60  0001 C CNN
 F 3 "" H 1550 6850 60  0001 C CNN
 	1    1550 6850
 	0    1    1    0   
@@ -935,7 +845,7 @@ AR Path="/4D63D9F3" Ref="R?"  Part="1"
 AR Path="/4D63D9FC" Ref="R20"  Part="1" 
 F 0 "R20" V 1500 6650 50  0000 C CNN
 F 1 "4k7" V 1550 6950 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 6950 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6950 60  0001 C CNN
 F 3 "" H 1550 6950 60  0001 C CNN
 	1    1550 6950
 	0    1    1    0   
@@ -948,7 +858,7 @@ AR Path="/4D63D9F3" Ref="R?"  Part="1"
 AR Path="/4D63D9FA" Ref="R18"  Part="1" 
 F 0 "R18" V 1500 6450 50  0000 C CNN
 F 1 "4k7" V 1550 6750 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 6750 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6750 60  0001 C CNN
 F 3 "" H 1550 6750 60  0001 C CNN
 	1    1550 6750
 	0    1    1    0   
@@ -959,7 +869,7 @@ U 1 1 4D63D9F3
 P 1550 6650
 F 0 "R17" V 1500 6350 50  0000 C CNN
 F 1 "4k7" V 1550 6650 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 6650 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6650 60  0001 C CNN
 F 3 "" H 1550 6650 60  0001 C CNN
 	1    1550 6650
 	0    1    1    0   
@@ -970,7 +880,7 @@ U 1 1 4D63D9E7
 P 1550 6550
 F 0 "R16" V 1500 6250 50  0000 C CNN
 F 1 "4k7" V 1550 6550 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1550 6550 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6550 60  0001 C CNN
 F 3 "" H 1550 6550 60  0001 C CNN
 	1    1550 6550
 	0    1    1    0   
@@ -1107,7 +1017,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3FD" Ref="R8"  Part="1" 
 F 0 "R8" V 5100 6950 50  0000 C CNN
 F 1 "330R" V 5150 7250 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 7250 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 7250 60  0001 C CNN
 F 3 "" H 5150 7250 60  0001 C CNN
 	1    5150 7250
 	0    1    1    0   
@@ -1120,7 +1030,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3FB" Ref="R7"  Part="1" 
 F 0 "R7" V 5100 6850 50  0000 C CNN
 F 1 "330R" V 5150 7150 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 7150 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 7150 60  0001 C CNN
 F 3 "" H 5150 7150 60  0001 C CNN
 	1    5150 7150
 	0    1    1    0   
@@ -1133,7 +1043,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3F9" Ref="R6"  Part="1" 
 F 0 "R6" V 5100 6750 50  0000 C CNN
 F 1 "330R" V 5150 7050 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 7050 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 7050 60  0001 C CNN
 F 3 "" H 5150 7050 60  0001 C CNN
 	1    5150 7050
 	0    1    1    0   
@@ -1146,7 +1056,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3F8" Ref="R5"  Part="1" 
 F 0 "R5" V 5100 6650 50  0000 C CNN
 F 1 "330R" V 5150 6950 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 6950 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6950 60  0001 C CNN
 F 3 "" H 5150 6950 60  0001 C CNN
 	1    5150 6950
 	0    1    1    0   
@@ -1159,7 +1069,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3F5" Ref="R3"  Part="1" 
 F 0 "R3" V 5100 6450 50  0000 C CNN
 F 1 "330R" V 5150 6750 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 6750 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6750 60  0001 C CNN
 F 3 "" H 5150 6750 60  0001 C CNN
 	1    5150 6750
 	0    1    1    0   
@@ -1172,7 +1082,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3F3" Ref="R4"  Part="1" 
 F 0 "R4" V 5100 6550 50  0000 C CNN
 F 1 "330R" V 5150 6850 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 6850 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6850 60  0001 C CNN
 F 3 "" H 5150 6850 60  0001 C CNN
 	1    5150 6850
 	0    1    1    0   
@@ -1185,7 +1095,7 @@ AR Path="/4D63D3E5" Ref="R?"  Part="1"
 AR Path="/4D63D3EF" Ref="R1"  Part="1" 
 F 0 "R1" V 5100 6250 50  0000 C CNN
 F 1 "330R" V 5150 6550 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 6550 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6550 60  0001 C CNN
 F 3 "" H 5150 6550 60  0001 C CNN
 	1    5150 6550
 	0    1    1    0   
@@ -1196,7 +1106,7 @@ U 1 1 4D63D3E5
 P 5150 6650
 F 0 "R2" V 5100 6350 50  0000 C CNN
 F 1 "330R" V 5150 6650 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 5150 6650 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6650 60  0001 C CNN
 F 3 "" H 5150 6650 60  0001 C CNN
 	1    5150 6650
 	0    1    1    0   
@@ -1209,7 +1119,7 @@ U 1 1 4D63CF7F
 P 9650 4600
 F 0 "R11" V 9730 4600 50  0000 C CNN
 F 1 "0R" V 9650 4600 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 9650 4600 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 9650 4600 60  0001 C CNN
 F 3 "" H 9650 4600 60  0001 C CNN
 	1    9650 4600
 	0    -1   -1   0   
@@ -1318,7 +1228,7 @@ U 1 1 4D5EBE04
 P 2700 1000
 F 0 "R10" V 2780 1000 50  0000 C CNN
 F 1 "0R" V 2700 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 2700 1000 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 2700 1000 60  0001 C CNN
 F 3 "" H 2700 1000 60  0001 C CNN
 	1    2700 1000
 	0    1    1    0   
@@ -1402,7 +1312,7 @@ U 1 1 4D5EAE68
 P 1600 1250
 F 0 "R9" H 1700 1250 50  0000 C CNN
 F 1 "10k" V 1600 1250 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 1600 1250 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1600 1250 60  0001 C CNN
 F 3 "" H 1600 1250 60  0001 C CNN
 	1    1600 1250
 	1    0    0    -1  
@@ -1470,7 +1380,7 @@ U 1 1 4D5E475E
 P 10000 5850
 F 0 "R13" V 10080 5850 50  0000 C CNN
 F 1 "0R" V 10000 5850 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 10000 5850 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 10000 5850 60  0001 C CNN
 F 3 "" H 10000 5850 60  0001 C CNN
 	1    10000 5850
 	0    1    1    0   
@@ -1481,7 +1391,7 @@ U 1 1 4D5E464B
 P 10000 5750
 F 0 "R12" V 9900 5750 50  0000 C CNN
 F 1 "0R" V 10000 5750 50  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Horizontal_RM7mm" H 10000 5750 60  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 10000 5750 60  0001 C CNN
 F 3 "" H 10000 5750 60  0001 C CNN
 	1    10000 5750
 	0    1    1    0   
@@ -1718,7 +1628,7 @@ U 1 1 4D5E3513
 P 9000 5750
 F 0 "P1" H 9000 6150 60  0000 C CNN
 F 1 "CONN_7X2" V 9000 5750 60  0001 C CNN
-F 2 "Connect_custom:IDC_Header_Straight_14pins" H 9000 5750 60  0001 C CNN
+F 2 "Connect:IDC_Header_Straight_14pins" H 9000 5750 60  0001 C CNN
 F 3 "" H 9000 5750 60  0001 C CNN
 	1    9000 5750
 	1    0    0    -1  
