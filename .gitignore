@@ -1,8 +1,0 @@
-*.000
-*.bak
-*.bck
-$savepcb.brd
-_autosave-$savepcb.brd
-*.kicad_pcb-bak
-*.brd-bak
-*.dsn

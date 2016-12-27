@@ -1,6 +1,0 @@
-[submodule "Connect.pretty"]
-	path = Connect.pretty
-	url = git@github.com:KiCad/Connect.pretty.git
-[submodule "Resistors_ThroughHole.pretty"]
-	path = Resistors_ThroughHole.pretty
-	url = git@github.com:KiCad/Resistors_ThroughHole.pretty.git

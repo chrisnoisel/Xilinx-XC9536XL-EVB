@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Connect)(type KiCad)(uri "$(KIPRJMOD)/Connect.pretty")(options "")(descr ""))
-  (lib (name Resistors_ThroughHole)(type KiCad)(uri "$(KIPRJMOD)/Resistors_ThroughHole.pretty")(options "")(descr ""))
-)
