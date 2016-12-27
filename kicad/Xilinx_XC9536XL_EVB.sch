@@ -1,4 +1,34 @@
 EESchema Schematic File Version 2
+LIBS:Xilinx_XC9536XL_EVB-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:Xilinx_XC9536XL_EVB-cache
 EELAYER 25 0
 EELAYER END
@@ -538,18 +568,18 @@ U 1 1 4E562E96
 P 2450 2600
 F 0 "IC1" H 1950 3700 50  0000 L BNN
 F 1 "ATTINY2313-P" H 1550 2200 50  0000 L BNN
-F 2 "Sockets_DIP:DIP-20__300" H 1900 2150 50  0001 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm" H 1900 2150 50  0001 C CNN
 F 3 "" H 2450 2600 60  0001 C CNN
 	1    2450 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L R-RESCUE-Xilinx_XC9536XL_EVB R24
 U 1 1 4D64D9B2
 P 6150 6300
 F 0 "R24" V 6230 6300 50  0000 C CNN
 F 1 "0R" V 6150 6300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 6150 6300 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 6150 6300 60  0001 C CNN
 F 3 "" H 6150 6300 60  0001 C CNN
 	1    6150 6300
 	1    0    0    -1  
@@ -567,7 +597,7 @@ O2
 Text Label 4850 3400 0    60   ~ 0
 O1
 $Comp
-L GND #PWR01
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR01
 U 1 1 4D64C97A
 P 10150 3900
 F 0 "#PWR01" H 10150 3900 30  0001 C CNN
@@ -578,7 +608,7 @@ F 3 "" H 10150 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR02
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR02
 U 1 1 4D64C96C
 P 10150 3050
 F 0 "#PWR02" H 10150 3010 30  0001 C CNN
@@ -687,7 +717,7 @@ S2
 Text Label 8100 2200 0    60   ~ 0
 S1
 $Comp
-L GND #PWR03
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR03
 U 1 1 4D63E15C
 P 4150 1650
 F 0 "#PWR03" H 4150 1650 30  0001 C CNN
@@ -698,18 +728,18 @@ F 3 "" H 4150 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L R-RESCUE-Xilinx_XC9536XL_EVB R14
 U 1 1 4D63E142
 P 4500 1550
 F 0 "R14" V 4580 1550 50  0000 C CNN
 F 1 "4k7" V 4500 1550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 4500 1550 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 4500 1550 60  0001 C CNN
 F 3 "" H 4500 1550 60  0001 C CNN
 	1    4500 1550
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR04
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR04
 U 1 1 4D63E130
 P 5750 1050
 F 0 "#PWR04" H 5750 1010 30  0001 C CNN
@@ -720,18 +750,18 @@ F 3 "" H 5750 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-Xilinx_XC9536XL_EVB R15
 U 1 1 4D63E0EF
 P 4850 1900
 F 0 "R15" V 4930 1900 50  0000 C CNN
 F 1 "4k7" V 4850 1900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 4850 1900 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 4850 1900 60  0001 C CNN
 F 3 "" H 4850 1900 60  0001 C CNN
 	1    4850 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR05
 U 1 1 4D63E0E1
 P 3800 7350
 F 0 "#PWR05" H 3800 7350 30  0001 C CNN
@@ -753,7 +783,7 @@ F 3 "" H 5300 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR06
 U 1 1 4D63DF91
 P 1700 6050
 F 0 "#PWR06" H 1700 6010 30  0001 C CNN
@@ -769,7 +799,7 @@ U 1 1 4D63DEF7
 P 2950 6550
 F 0 "SW2" H 3225 6650 60  0000 C CNN
 F 1 "SW_DIP_8" H 3300 5725 60  0001 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_DIP_x8_Slide" H 2950 6550 60  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_DIP_x8_Slide" H 2950 6550 60  0001 C CNN
 F 3 "" H 2950 6550 60  0001 C CNN
 	1    2950 6550
 	1    0    0    -1  
@@ -780,107 +810,107 @@ U 1 1 4D63DA96
 P 2400 6050
 F 0 "RR1" V 2550 6400 70  0000 C CNN
 F 1 "4k7" V 2430 6050 70  0000 C CNN
-F 2 "Resistors_ThroughHole_custom:Resistor_Array_SIP8" H 2400 6050 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Array_SIP9" H 2400 6050 60  0001 C CNN
 F 3 "" H 2400 6050 60  0001 C CNN
 	1    2400 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63DA03
 P 1550 7250
 AR Path="/4D63D9F3" Ref="R?"  Part="1" 
 AR Path="/4D63DA03" Ref="R23"  Part="1" 
 F 0 "R23" V 1500 6950 50  0000 C CNN
 F 1 "4k7" V 1550 7250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 7250 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 7250 60  0001 C CNN
 F 3 "" H 1550 7250 60  0001 C CNN
 	1    1550 7250
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63DA02
 P 1550 7150
 AR Path="/4D63D9F3" Ref="R?"  Part="1" 
 AR Path="/4D63DA02" Ref="R22"  Part="1" 
 F 0 "R22" V 1500 6850 50  0000 C CNN
 F 1 "4k7" V 1550 7150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 7150 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 7150 60  0001 C CNN
 F 3 "" H 1550 7150 60  0001 C CNN
 	1    1550 7150
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63DA01
 P 1550 7050
 AR Path="/4D63D9F3" Ref="R?"  Part="1" 
 AR Path="/4D63DA01" Ref="R21"  Part="1" 
 F 0 "R21" V 1500 6750 50  0000 C CNN
 F 1 "4k7" V 1550 7050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 7050 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 7050 60  0001 C CNN
 F 3 "" H 1550 7050 60  0001 C CNN
 	1    1550 7050
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D9FD
 P 1550 6850
 AR Path="/4D63D9F3" Ref="R?"  Part="1" 
 AR Path="/4D63D9FD" Ref="R19"  Part="1" 
 F 0 "R19" V 1500 6550 50  0000 C CNN
 F 1 "4k7" V 1550 6850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6850 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 6850 60  0001 C CNN
 F 3 "" H 1550 6850 60  0001 C CNN
 	1    1550 6850
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D9FC
 P 1550 6950
 AR Path="/4D63D9F3" Ref="R?"  Part="1" 
 AR Path="/4D63D9FC" Ref="R20"  Part="1" 
 F 0 "R20" V 1500 6650 50  0000 C CNN
 F 1 "4k7" V 1550 6950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6950 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 6950 60  0001 C CNN
 F 3 "" H 1550 6950 60  0001 C CNN
 	1    1550 6950
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D9FA
 P 1550 6750
 AR Path="/4D63D9F3" Ref="R?"  Part="1" 
 AR Path="/4D63D9FA" Ref="R18"  Part="1" 
 F 0 "R18" V 1500 6450 50  0000 C CNN
 F 1 "4k7" V 1550 6750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6750 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 6750 60  0001 C CNN
 F 3 "" H 1550 6750 60  0001 C CNN
 	1    1550 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-Xilinx_XC9536XL_EVB R17
 U 1 1 4D63D9F3
 P 1550 6650
 F 0 "R17" V 1500 6350 50  0000 C CNN
 F 1 "4k7" V 1550 6650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6650 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 6650 60  0001 C CNN
 F 3 "" H 1550 6650 60  0001 C CNN
 	1    1550 6650
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-Xilinx_XC9536XL_EVB R16
 U 1 1 4D63D9E7
 P 1550 6550
 F 0 "R16" V 1500 6250 50  0000 C CNN
 F 1 "4k7" V 1550 6550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1550 6550 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1550 6550 60  0001 C CNN
 F 3 "" H 1550 6550 60  0001 C CNN
 	1    1550 6550
 	0    1    1    0   
@@ -897,7 +927,7 @@ F 3 "" H 6550 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR07
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR07
 U 1 1 4D63D641
 P 6150 6050
 F 0 "#PWR07" H 6150 6010 30  0001 C CNN
@@ -908,7 +938,7 @@ F 3 "" H 6150 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D604
 P 5800 7250
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -921,7 +951,7 @@ F 3 "" H 5800 7250 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D602
 P 5800 7150
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -934,7 +964,7 @@ F 3 "" H 5800 7150 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D600
 P 5800 7050
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -947,7 +977,7 @@ F 3 "" H 5800 7050 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D5FE
 P 5800 6950
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -960,7 +990,7 @@ F 3 "" H 5800 6950 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D5FC
 P 5800 6850
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -973,7 +1003,7 @@ F 3 "" H 5800 6850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D5F7
 P 5800 6750
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -986,7 +1016,7 @@ F 3 "" H 5800 6750 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-Xilinx_XC9536XL_EVB D?
 U 1 1 4D63D5F1
 P 5800 6550
 AR Path="/4D63D5E2" Ref="D?"  Part="1" 
@@ -999,7 +1029,7 @@ F 3 "" H 5800 6550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-Xilinx_XC9536XL_EVB D2
 U 1 1 4D63D5E2
 P 5800 6650
 F 0 "D2" H 6000 6600 50  0000 C CNN
@@ -1010,103 +1040,103 @@ F 3 "" H 5800 6650 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3FD
 P 5150 7250
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3FD" Ref="R8"  Part="1" 
 F 0 "R8" V 5100 6950 50  0000 C CNN
 F 1 "330R" V 5150 7250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 7250 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 7250 60  0001 C CNN
 F 3 "" H 5150 7250 60  0001 C CNN
 	1    5150 7250
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3FB
 P 5150 7150
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3FB" Ref="R7"  Part="1" 
 F 0 "R7" V 5100 6850 50  0000 C CNN
 F 1 "330R" V 5150 7150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 7150 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 7150 60  0001 C CNN
 F 3 "" H 5150 7150 60  0001 C CNN
 	1    5150 7150
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3F9
 P 5150 7050
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3F9" Ref="R6"  Part="1" 
 F 0 "R6" V 5100 6750 50  0000 C CNN
 F 1 "330R" V 5150 7050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 7050 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 7050 60  0001 C CNN
 F 3 "" H 5150 7050 60  0001 C CNN
 	1    5150 7050
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3F8
 P 5150 6950
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3F8" Ref="R5"  Part="1" 
 F 0 "R5" V 5100 6650 50  0000 C CNN
 F 1 "330R" V 5150 6950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6950 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 6950 60  0001 C CNN
 F 3 "" H 5150 6950 60  0001 C CNN
 	1    5150 6950
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3F5
 P 5150 6750
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3F5" Ref="R3"  Part="1" 
 F 0 "R3" V 5100 6450 50  0000 C CNN
 F 1 "330R" V 5150 6750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6750 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 6750 60  0001 C CNN
 F 3 "" H 5150 6750 60  0001 C CNN
 	1    5150 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3F3
 P 5150 6850
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3F3" Ref="R4"  Part="1" 
 F 0 "R4" V 5100 6550 50  0000 C CNN
 F 1 "330R" V 5150 6850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6850 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 6850 60  0001 C CNN
 F 3 "" H 5150 6850 60  0001 C CNN
 	1    5150 6850
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-Xilinx_XC9536XL_EVB R?
 U 1 1 4D63D3EF
 P 5150 6550
 AR Path="/4D63D3E5" Ref="R?"  Part="1" 
 AR Path="/4D63D3EF" Ref="R1"  Part="1" 
 F 0 "R1" V 5100 6250 50  0000 C CNN
 F 1 "330R" V 5150 6550 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6550 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 6550 60  0001 C CNN
 F 3 "" H 5150 6550 60  0001 C CNN
 	1    5150 6550
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-Xilinx_XC9536XL_EVB R2
 U 1 1 4D63D3E5
 P 5150 6650
 F 0 "R2" V 5100 6350 50  0000 C CNN
 F 1 "330R" V 5150 6650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 5150 6650 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 5150 6650 60  0001 C CNN
 F 3 "" H 5150 6650 60  0001 C CNN
 	1    5150 6650
 	0    1    1    0   
@@ -1114,18 +1144,18 @@ $EndComp
 Text Label 10150 4600 0    60   ~ 0
 3V3P
 $Comp
-L R R11
+L R-RESCUE-Xilinx_XC9536XL_EVB R11
 U 1 1 4D63CF7F
 P 9650 4600
 F 0 "R11" V 9730 4600 50  0000 C CNN
 F 1 "0R" V 9650 4600 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 9650 4600 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 9650 4600 60  0001 C CNN
 F 3 "" H 9650 4600 60  0001 C CNN
 	1    9650 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR08
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR08
 U 1 1 4D5EC67B
 P 1000 1500
 F 0 "#PWR08" H 1000 1460 30  0001 C CNN
@@ -1136,7 +1166,7 @@ F 3 "" H 1000 1500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR09
 U 1 1 4D5EC65E
 P 1000 2050
 F 0 "#PWR09" H 1000 2050 30  0001 C CNN
@@ -1158,7 +1188,7 @@ F 3 "" H 600 1750 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR010
 U 1 1 4D5EC604
 P 1000 2650
 F 0 "#PWR010" H 1000 2650 30  0001 C CNN
@@ -1182,7 +1212,7 @@ $EndComp
 Text Label 4000 2250 0    60   ~ 0
 3V3P
 $Comp
-L GND #PWR011
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR011
 U 1 1 4D5EC53F
 P 3850 3700
 F 0 "#PWR011" H 3850 3700 30  0001 C CNN
@@ -1223,12 +1253,12 @@ F 3 "" H 2450 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-Xilinx_XC9536XL_EVB R10
 U 1 1 4D5EBE04
 P 2700 1000
 F 0 "R10" V 2780 1000 50  0000 C CNN
 F 1 "0R" V 2700 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 2700 1000 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 2700 1000 60  0001 C CNN
 F 3 "" H 2700 1000 60  0001 C CNN
 	1    2700 1000
 	0    1    1    0   
@@ -1242,7 +1272,7 @@ MISO
 Text Label 2900 5000 0    60   ~ 0
 MOSI
 $Comp
-L GND #PWR013
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR013
 U 1 1 4D5EB276
 P 3100 5200
 F 0 "#PWR013" H 3100 5200 30  0001 C CNN
@@ -1274,7 +1304,7 @@ SCK
 Text Label 1250 1800 0    60   ~ 0
 RESET
 $Comp
-L +3.3V #PWR014
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR014
 U 1 1 4D5EAEAE
 P 2950 750
 F 0 "#PWR014" H 2950 710 30  0001 C CNN
@@ -1285,7 +1315,7 @@ F 3 "" H 2950 750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR015
 U 1 1 4D5EAE9A
 P 1300 1500
 F 0 "#PWR015" H 1300 1500 30  0001 C CNN
@@ -1296,29 +1326,29 @@ F 3 "" H 1300 1500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-Xilinx_XC9536XL_EVB C6
 U 1 1 4D5EAE75
 P 1300 1250
 F 0 "C6" H 1350 1350 50  0000 L CNN
 F 1 "100n" H 1350 1150 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 1300 1250 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7_W2_P5" H 1300 1250 60  0001 C CNN
 F 3 "" H 1300 1250 60  0001 C CNN
 	1    1300 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-Xilinx_XC9536XL_EVB R9
 U 1 1 4D5EAE68
 P 1600 1250
 F 0 "R9" H 1700 1250 50  0000 C CNN
 F 1 "10k" V 1600 1250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 1600 1250 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 1600 1250 60  0001 C CNN
 F 3 "" H 1600 1250 60  0001 C CNN
 	1    1600 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR016
 U 1 1 4D5EAE5B
 P 2800 3350
 F 0 "#PWR016" H 2800 3350 30  0001 C CNN
@@ -1329,7 +1359,7 @@ F 3 "" H 2800 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR017
 U 1 1 4D5EAE44
 P 2375 4200
 F 0 "#PWR017" H 2375 4200 30  0001 C CNN
@@ -1340,25 +1370,25 @@ F 3 "" H 2375 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-Xilinx_XC9536XL_EVB C?
 U 1 1 4D5EADED
 P 2550 3800
 AR Path="/4D5EADE6" Ref="C?"  Part="1" 
 AR Path="/4D5EADED" Ref="C8"  Part="1" 
 F 0 "C8" H 2600 3900 50  0000 L CNN
 F 1 "22p" H 2600 3700 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 2550 3800 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L4_W2.5_P2.5" H 2550 3800 60  0001 C CNN
 F 3 "" H 2550 3800 60  0001 C CNN
 	1    2550 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-Xilinx_XC9536XL_EVB C7
 U 1 1 4D5EADE6
 P 2200 3800
 F 0 "C7" H 2250 3900 50  0000 L CNN
 F 1 "22p" H 2250 3700 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 2200 3800 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L4_W2.5_P2.5" H 2200 3800 60  0001 C CNN
 F 3 "" H 2200 3800 60  0001 C CNN
 	1    2200 3800
 	1    0    0    -1  
@@ -1375,23 +1405,23 @@ F 3 "" H 2200 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-Xilinx_XC9536XL_EVB R13
 U 1 1 4D5E475E
 P 10000 5850
 F 0 "R13" V 10080 5850 50  0000 C CNN
 F 1 "0R" V 10000 5850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 10000 5850 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 10000 5850 60  0001 C CNN
 F 3 "" H 10000 5850 60  0001 C CNN
 	1    10000 5850
 	0    1    1    0   
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-Xilinx_XC9536XL_EVB R12
 U 1 1 4D5E464B
 P 10000 5750
 F 0 "R12" V 9900 5750 50  0000 C CNN
 F 1 "0R" V 10000 5750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" H 10000 5750 60  0001 C CNN
+F 2 "Resistors_THT:Resistor_Horizontal_RM7mm" H 10000 5750 60  0001 C CNN
 F 3 "" H 10000 5750 60  0001 C CNN
 	1    10000 5750
 	0    1    1    0   
@@ -1419,7 +1449,7 @@ F 3 "" H 9850 1100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR020
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR020
 U 1 1 4D5E3929
 P 9600 900
 F 0 "#PWR020" H 9600 860 30  0001 C CNN
@@ -1430,7 +1460,7 @@ F 3 "" H 9600 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR021
 U 1 1 4D5E3927
 P 9600 1500
 F 0 "#PWR021" H 9600 1500 30  0001 C CNN
@@ -1446,13 +1476,13 @@ U 1 1 4D5E3904
 P 10200 1200
 F 0 "P2" H 10200 1400 40  0000 C CNN
 F 1 "CONN_2" V 10250 1200 40  0001 C CNN
-F 2 "Connect:bornier2" H 10200 1200 60  0001 C CNN
+F 2 "Connectors:bornier2" H 10200 1200 60  0001 C CNN
 F 3 "" H 10200 1200 60  0001 C CNN
 	1    10200 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR022
+L +3.3V-RESCUE-Xilinx_XC9536XL_EVB #PWR022
 U 1 1 4D5E3826
 P 8350 900
 F 0 "#PWR022" H 8350 860 30  0001 C CNN
@@ -1463,7 +1493,7 @@ F 3 "" H 8350 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR?
 U 1 1 4D5E3822
 P 8050 1450
 AR Path="/4D5E381B" Ref="#PWR?"  Part="1" 
@@ -1476,7 +1506,7 @@ F 3 "" H 8050 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR?
 U 1 1 4D5E3820
 P 7650 1450
 AR Path="/4D5E381B" Ref="#PWR?"  Part="1" 
@@ -1489,7 +1519,7 @@ F 3 "" H 7650 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR?
 U 1 1 4D5E381E
 P 7300 1450
 AR Path="/4D5E381B" Ref="#PWR?"  Part="1" 
@@ -1502,7 +1532,7 @@ F 3 "" H 7300 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR026
 U 1 1 4D5E381B
 P 6950 1450
 F 0 "#PWR026" H 6950 1450 30  0001 C CNN
@@ -1513,7 +1543,7 @@ F 3 "" H 6950 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR027
 U 1 1 4D5E37BD
 P 6550 5000
 F 0 "#PWR027" H 6550 5000 30  0001 C CNN
@@ -1524,7 +1554,7 @@ F 3 "" H 6550 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR028
 U 1 1 4D5E379C
 P 9700 5300
 F 0 "#PWR028" H 9700 5300 30  0001 C CNN
@@ -1535,7 +1565,7 @@ F 3 "" H 9700 5300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L GND-RESCUE-Xilinx_XC9536XL_EVB #PWR029
 U 1 1 4D5E375B
 P 8600 6250
 F 0 "#PWR029" H 8600 6250 30  0001 C CNN
@@ -1564,60 +1594,60 @@ TDI
 NoConn ~ 9400 6050
 NoConn ~ 9400 5950
 $Comp
-L C C5
+L C-RESCUE-Xilinx_XC9536XL_EVB C5
 U 1 1 4D5E3587
 P 9700 5100
 F 0 "C5" H 9750 5200 50  0000 L CNN
 F 1 "100n" H 9750 5000 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 9700 5100 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7_W2_P5" H 9700 5100 60  0001 C CNN
 F 3 "" H 9700 5100 60  0001 C CNN
 	1    9700 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C4
+L CP1-RESCUE-Xilinx_XC9536XL_EVB C4
 U 1 1 4D5E3572
 P 8050 1250
 F 0 "C4" H 8100 1350 50  0000 L CNN
 F 1 "10uF" H 8100 1150 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 8050 1250 60  0001 C CNN
+F 2 "Capacitors_THT:C_Radial_D5_L6_P2.5" H 8050 1250 60  0001 C CNN
 F 3 "" H 8050 1250 60  0001 C CNN
 	1    8050 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-Xilinx_XC9536XL_EVB C?
 U 1 1 4D5E355C
 P 7650 1250
 AR Path="/4D5E354A" Ref="C?"  Part="1" 
 AR Path="/4D5E355C" Ref="C3"  Part="1" 
 F 0 "C3" H 7700 1350 50  0000 L CNN
 F 1 "100n" H 7700 1150 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 7650 1250 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7_W2_P5" H 7650 1250 60  0001 C CNN
 F 3 "" H 7650 1250 60  0001 C CNN
 	1    7650 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-Xilinx_XC9536XL_EVB C?
 U 1 1 4D5E354F
 P 7300 1250
 AR Path="/4D5E354A" Ref="C?"  Part="1" 
 AR Path="/4D5E354F" Ref="C2"  Part="1" 
 F 0 "C2" H 7350 1350 50  0000 L CNN
 F 1 "100n" H 7350 1150 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 7300 1250 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7_W2_P5" H 7300 1250 60  0001 C CNN
 F 3 "" H 7300 1250 60  0001 C CNN
 	1    7300 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-Xilinx_XC9536XL_EVB C1
 U 1 1 4D5E354A
 P 6950 1250
 F 0 "C1" H 7000 1350 50  0000 L CNN
 F 1 "100n" H 7000 1150 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 6950 1250 60  0001 C CNN
+F 2 "Capacitors_THT:C_Rect_L7_W2_P5" H 6950 1250 60  0001 C CNN
 F 3 "" H 6950 1250 60  0001 C CNN
 	1    6950 1250
 	1    0    0    -1  
@@ -1628,7 +1658,7 @@ U 1 1 4D5E3513
 P 9000 5750
 F 0 "P1" H 9000 6150 60  0000 C CNN
 F 1 "CONN_7X2" V 9000 5750 60  0001 C CNN
-F 2 "Connect:IDC_Header_Straight_14pins" H 9000 5750 60  0001 C CNN
+F 2 "Connectors:IDC_Header_Straight_14pins" H 9000 5750 60  0001 C CNN
 F 3 "" H 9000 5750 60  0001 C CNN
 	1    9000 5750
 	1    0    0    -1  
