@@ -1,4 +1,8 @@
+<<<<<<< HEAD:Xilinx_XC9536XL_EVB.pro
 update=Tue 08 Dec 2015 08:55:39 PM CET
+=======
+update=Tue 27 Dec 2016 08:03:17 PM CET
+>>>>>>> master:kicad/Xilinx_XC9536XL_EVB.pro
 last_client=kicad
 [general]
 version=1
@@ -47,5 +51,39 @@ EquName1=devcms
 version=1
 LibDir=../../kicad/kicad-library/library
 [eeschema/libraries]
+<<<<<<< HEAD:Xilinx_XC9536XL_EVB.pro
 LibName1=regul
 LibName2=power
+=======
+LibName1=Xilinx_XC9536XL_EVB-rescue
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=linear
+LibName7=regul
+LibName8=74xx
+LibName9=cmos4000
+LibName10=adc-dac
+LibName11=memory
+LibName12=xilinx
+LibName13=special
+LibName14=microcontrollers
+LibName15=dsp
+LibName16=microchip
+LibName17=analog_switches
+LibName18=motorola
+LibName19=texas
+LibName20=intel
+LibName21=audio
+LibName22=interface
+LibName23=digital-audio
+LibName24=philips
+LibName25=display
+LibName26=cypress
+LibName27=siliconi
+LibName28=opto
+LibName29=atmel
+LibName30=contrib
+LibName31=valves
+>>>>>>> master:kicad/Xilinx_XC9536XL_EVB.pro
