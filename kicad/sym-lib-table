@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Xilinx_XC9536XL_EVB-rescue)(type Legacy)(uri ${KIPRJMOD}/Xilinx_XC9536XL_EVB-rescue.lib)(options "")(descr ""))
+)
